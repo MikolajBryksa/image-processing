@@ -1,0 +1,7 @@
+services:
+  redis:
+    image: redis:8
+    container_name: image-processing-redis
+    ports:
+      - "6379:6379"
+      # localhost:6379
